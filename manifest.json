@@ -1,0 +1,23 @@
+{
+  "id": "niri-vertical-monitor",
+  "name": "Niri Vertical Monitor",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "tafadias",
+  "license": "MIT",
+  "repository": "https://github.com/tafadias/niri-vertical-monitor",
+  "description": "Automatically stacks windows vertically on configured monitors (Niri only)",
+  "entryPoints": {
+    "main": "Main.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "enabled": false,
+      "monitors": []
+    }
+  }
+}
